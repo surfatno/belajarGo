@@ -6,10 +6,19 @@ jika ingin mencoba fitur lama, silahkan matikan Go-Modules menggunakan perintah
 
 
 GIT REPO
+>> git RSA
+>> https://www.youtube.com/watch?v=Irj-2tmV0JM
+>> Step
+>> go to C:\Users\Indosmart\.ssh
+>> ssh-keygen -o -t rsa -C "surfatno@gmail.com"   
+>> nanti muncul id_rsa di folder .ssh
+>> copy isian nya ke profile > settings > SSH and GPG keys > new SSH key
+>> setelah itu lanjut yang di bawah 
+
 >> go mod init github.com/surfatno/belajarGo
 >> git init
 >> git add go.mod
->> git add directory/project.go
+>> git add directory/project.go atau git add .
 >> git status
 >> git commit -m 'membuat module'
 >> git remote add origin git@github.com:surfatno/belajarGo.git
