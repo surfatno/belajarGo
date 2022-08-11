@@ -13,7 +13,7 @@ GIT REPO
 >> ssh-keygen -o -t rsa -C "surfatno@gmail.com"   
 >> nanti muncul id_rsa di folder .ssh
 >> copy isian nya ke profile > settings > SSH and GPG keys > new SSH key
->> setelah itu lanjut yang di bawah 
+>> setelah itu lanjut yang di bawah
 
 >> go mod init github.com/surfatno/belajarGo
 >> git init
@@ -23,3 +23,9 @@ GIT REPO
 >> git commit -m 'membuat module'
 >> git remote add origin git@github.com:surfatno/belajarGo.git
 >> git push origin master
+>> git tag v1.0.0
+>> git push --tags
+
+Update Depedencies
+
+>> 
