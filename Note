@@ -1,0 +1,16 @@
+Sekarang sudah di wajibkan menggunakan Go-Modules.
+jika ingin mencoba fitur lama, silahkan matikan Go-Modules menggunakan perintah
+
+>> go env -w GO111MODULE=off
+
+
+
+GIT REPO
+>> go mod init github.com/surfatno/belajarGo
+>> git init
+>> git add go.mod
+>> git add directory/project.go
+>> git status
+>> git commit -m 'membuat module'
+>> git remote add origin git@github.com:surfatno/belajarGo.git
+>> git push origin master
