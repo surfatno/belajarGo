@@ -26,6 +26,16 @@ GIT REPO
 >> git tag v1.0.0
 >> git push --tags
 
-Update Depedencies
+Update Module
 
->> 
+>> git add namaproject.go
+>> git commit -m 'update apa'
+>> git push origin master
+>> git tag v1.0.0
+>> git push --tags
+
+Upgrade Depedency
+>> di go mod edit version
+>> go get 
+
+
