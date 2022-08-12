@@ -10,7 +10,8 @@ import (
 func main() {
 	// allfunc()
 	// section1()
-	section2()
+	// section 2 : git. lihat di note
+	// section 3 : unit test
 }
 func allfunc() {
 	// GetxCaharacter()
@@ -36,9 +37,6 @@ func section1() {
 
 	// ------------- Package
 	packages()
-}
-func section2() {
-	//go mod init nama-module
 }
 
 // ---------------------------------------------- All Function ----------------------------------------------
@@ -147,5 +145,3 @@ func packages() {
 	Section1.RegexPackage()
 
 }
-
-// ---------------------------------------------- Section 2 ----------------------------------------------
