@@ -1,8 +1,8 @@
 package main
 
 import (
-	"BelajarGoLang/AllFunc"
-	"BelajarGoLang/Section1"
+	"LearnGo/AllFunc"
+	"LearnGo/Section1"
 
 	"fmt"
 )
