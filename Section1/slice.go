@@ -22,6 +22,7 @@ func getMonth() [12]string {
 
 func Slice() {
 	var months = getMonth()
+	fmt.Println(months)
 	var slice1 = months[4:7]
 	fmt.Println("Slice	: ", slice1)
 	fmt.Println("Len	: ", len(slice1))
@@ -49,13 +50,17 @@ func SliceMonth() {
 
 	slice3[1] = "(bukan desember)"
 	fmt.Println("Edit Append	: ", slice3)
+	fmt.Println(months)
 
 }
 
 func MakeSlice() {
+
+	//buat slice kosong. baru ditambahkan isi ny
 	newSlice := make([]string, 2, 5)
 	newSlice[0] = "Eko"
 	newSlice[1] = "Kurniawan"
+
 	fmt.Println("Slice		: ", newSlice)
 	fmt.Println("Len		: ", len(newSlice))
 	fmt.Println("Cap		: ", cap(newSlice))
@@ -113,3 +118,40 @@ func PerbedaanArraySlice() {
 	• make([]TypeData,length,capcacity)	Membuat slice baru
 	• copy(destination,source)			Menyalin slice dari source ke destination
 */
+func Angka() [10]int {
+	angka := [...]int{
+		0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+	}
+	return angka
+}
+
+func Tester() {
+
+	//slice
+	var angka = Angka()
+	var angka1 []int = angka[4:7]
+	fmt.Println(angka)
+	fmt.Println(angka1)
+	// capasitas sampe belakang ada brp
+	fmt.Println(cap(angka1))
+	// panjang slice yang di ambil
+	fmt.Println(len(angka1))
+	// edit slice
+	angka[0] = 10
+	fmt.Println(angka)
+	angka1[0] = 44
+	fmt.Println(angka1)
+	fmt.Println(angka)
+	// tambahin angka di belakang. yang di belakang ny kena timpa
+	var angka2 = append(angka1, 55)
+	fmt.Println(angka2)
+	fmt.Println(angka)
+	// bikin dari benar" awal.
+	var ayam = make([]string, 1, 3)
+	ayam[0] = "ayam"
+	ayam = append(ayam, "bebek")
+
+	fmt.Println(ayam)
+	fmt.Println(len(ayam))
+	fmt.Println(cap(ayam))
+}

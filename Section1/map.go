@@ -4,6 +4,7 @@ import "fmt"
 
 func Map() {
 	person := map[string]string{
+		// map [name] Eko
 		"name":    "Eko",
 		"address": "Subang",
 	}
